@@ -21,6 +21,7 @@ class ScoreViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated: true)
         let pontoString = String(pontos)
         scoreLabel.text  = "\(pontoString) / 5"
         
