@@ -11,7 +11,7 @@
         <!--Theme View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ThemeViewController" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ThemeViewController" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,13 +44,13 @@
         <!--Unidade-->
         <scene sceneID="boo-De-ksf">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="hwm-xV-P42" customClass="UnityViewController" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Mqi-6v-cZp" customClass="Secon">
+                <viewController modalPresentationStyle="fullScreen" id="hwm-xV-P42" customClass="UnityViewController" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mqi-6v-cZp" customClass="Secon">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="500" verticalCompressionResistancePriority="500" ambiguous="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" minimumZoomScale="4" keyboardDismissMode="interactive" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VE-bt-XBY">
-                                <rect key="frame" x="25" y="108" width="374" height="626"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="500" verticalCompressionResistancePriority="500" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" minimumZoomScale="4" keyboardDismissMode="interactive" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VE-bt-XBY">
+                                <rect key="frame" x="25" y="108" width="369" height="626"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="647" id="FYh-bi-5yE"/>
@@ -63,7 +63,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b9-6d-jNK">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b9-6d-jNK">
                                 <rect key="frame" x="139" y="764" width="130" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="258-ER-eIG"/>
@@ -108,9 +108,9 @@
         <!--Score View Controller-->
         <scene sceneID="foJ-Tb-rIE">
             <objects>
-                <viewController id="MwT-mn-lpV" customClass="ScoreViewController" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MwT-mn-lpV" customClass="ScoreViewController" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pn8-Ms-67R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5T-Dc-yXy">
@@ -163,13 +163,13 @@
         <!--Alinhamento-->
         <scene sceneID="p3t-bg-eFZ">
             <objects>
-                <viewController id="5sC-rJ-CFK" customClass="AlignViewController" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="p64-7z-zuU">
+                <viewController id="5sC-rJ-CFK" customClass="AlignViewController" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p64-7z-zuU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djk-5h-NW2">
-                                <rect key="frame" x="140" y="764" width="139" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djk-5h-NW2">
+                                <rect key="frame" x="140" y="764" width="134" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="NhR-ww-2pB"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="aie-36-GXy"/>
@@ -183,7 +183,7 @@
                                 <rect key="frame" x="42" y="370" width="313" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="500" verticalCompressionResistancePriority="500" ambiguous="YES" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" minimumZoomScale="4" keyboardDismissMode="interactive" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQf-RZ-PQX">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="500" verticalCompressionResistancePriority="500" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" minimumZoomScale="4" keyboardDismissMode="interactive" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQf-RZ-PQX">
                                 <rect key="frame" x="25" y="107" width="369" height="647"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -228,13 +228,13 @@
         <!--Brevidade-->
         <scene sceneID="fcB-dr-cPR">
             <objects>
-                <viewController id="K4X-Zr-GkB" customClass="BrevidViewController" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="bXm-N0-LcV">
+                <viewController id="K4X-Zr-GkB" customClass="BrevidViewController" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bXm-N0-LcV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="500" verticalCompressionResistancePriority="500" ambiguous="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" minimumZoomScale="4" keyboardDismissMode="interactive" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHg-l2-hEW">
-                                <rect key="frame" x="25" y="108" width="374" height="626"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="500" verticalCompressionResistancePriority="500" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" minimumZoomScale="4" keyboardDismissMode="interactive" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHg-l2-hEW">
+                                <rect key="frame" x="25" y="108" width="369" height="626"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="OjM-oG-MWU"/>
@@ -247,8 +247,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89d-Bg-ste">
-                                <rect key="frame" x="140" y="764" width="139" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89d-Bg-ste">
+                                <rect key="frame" x="140" y="764" width="134" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="9a2-ly-Up0"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="UcF-Co-FtI"/>
@@ -310,7 +310,7 @@
         <!--Game View Controller-->
         <scene sceneID="AUa-BE-F1f">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="mX5-KI-g2E" customClass="GameViewController" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="mX5-KI-g2E" customClass="GameViewController" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5pL-A9-Ubq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -367,7 +367,7 @@
                     <navigationItem key="navigationItem" id="bxr-NK-ZSw"/>
                     <connections>
                         <outlet property="imageShow" destination="Unz-Bw-IaE" id="BZA-R7-H46"/>
-                        <segue destination="MwT-mn-lpV" kind="showDetail" identifier="score" id="ycw-xd-T1f"/>
+                        <segue destination="MwT-mn-lpV" kind="show" identifier="score" id="ycw-xd-T1f"/>
                     </connections>
                 </viewController>
                 <exit id="DJx-fu-CMu" userLabel="Exit" sceneMemberID="exit"/>
@@ -378,7 +378,7 @@
         <!--Game View Controller2-->
         <scene sceneID="1Zo-KL-OtN">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="h05-9Z-0W8" customClass="GameViewController2" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="h05-9Z-0W8" customClass="GameViewController2" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gmD-h8-aCn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -437,7 +437,7 @@
                     <navigationItem key="navigationItem" id="6Qk-km-eAo"/>
                     <connections>
                         <outlet property="imageShow" destination="qsA-kH-ucg" id="0rP-Yw-gBM"/>
-                        <segue destination="MwT-mn-lpV" kind="showDetail" identifier="score" id="HXg-SX-gAX"/>
+                        <segue destination="MwT-mn-lpV" kind="show" identifier="score" id="HXg-SX-gAX"/>
                     </connections>
                 </viewController>
                 <exit id="AXY-ni-dZV" userLabel="Exit" sceneMemberID="exit"/>
@@ -448,7 +448,7 @@
         <!--Game View Controller3-->
         <scene sceneID="jJ9-N5-Pl4">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="nkV-Gs-r4T" customClass="GameViewController3" customModule="Picto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="nkV-Gs-r4T" customClass="GameViewController3" customModule="iConiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JPX-dT-9Oe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -507,7 +507,7 @@
                     <navigationItem key="navigationItem" id="eNn-yW-qrz"/>
                     <connections>
                         <outlet property="imageShow" destination="DIk-r2-4aV" id="KOM-wm-9gv"/>
-                        <segue destination="MwT-mn-lpV" kind="showDetail" identifier="score" id="3dX-zP-rgD"/>
+                        <segue destination="MwT-mn-lpV" kind="show" identifier="score" id="3dX-zP-rgD"/>
                     </connections>
                 </viewController>
                 <exit id="16t-yo-IN9" userLabel="Exit" sceneMemberID="exit"/>
@@ -517,7 +517,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ycw-xd-T1f"/>
+        <segue reference="3dX-zP-rgD"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="image 1" width="2000" height="2000"/>
